@@ -1,0 +1,112 @@
+/* Variables */
+:root {
+  --background-color: whitesmoke;
+  --border-color: grey;
+  --button-color: #B0A0D8;
+  --button-text-color: white;
+  --icon-color: grey;
+  --contact-card-padding: 1em 1.8em;
+  --active-card-padding: 1em 2em;
+  --button-padding: 1em 3em;
+  --contact-card-img-size: 3em;
+  --active-card-img-size: 2.5em;
+  --social-icons-font-size: 1.5em;
+  --button-box-padding: 2em 1.4em;
+  --contact-list-width: 18em;
+}
+
+/* Estilos generales */
+body {
+  background-color: var(--background-color);
+}
+
+/* Contenedor principal */
+.container{
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Lista de contactos */
+.contact-list {
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  flex-basis: var(--contact-list-width);
+  justify-content: space-between;
+}
+
+/* Estilo para el contacto activo */
+.active-card{
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+  justify-content: space-between;
+  padding: var(--active-card-padding);
+}
+
+.active-display {
+  display: flex;
+}
+
+.active-card img {
+  border-radius: 100%;
+  width: var(--active-card-img-size);
+}
+
+.contact-display {
+  color: var(--icon-color);
+  font-size: smaller;
+}
+
+/* Estilos íconos sociales */
+.social-icons {
+  align-items: center;
+  display: flex;
+  font-size: var(--social-icons-font-size);
+  flex-basis: var(--active-card-img-size);
+  color: var(--icon-color);
+  justify-content: space-between;
+}
+
+/* Estilos botón de nuevo chat */
+.button-box{
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  padding: var(--button-box-padding);
+}
+
+button{
+  background-color: var(--button-color);
+  color: var(--button-text-color);  
+  padding: var(--button-padding);
+}
+
+/* Estilos lista de contactos no activos */
+.contact-card {
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  margin: 0em;
+  padding: var(--contact-card-padding);
+}
+
+.contact-card img{
+  border-radius: 100%;
+  width: var(--contact-card-img-size);
+}
+
+/* Estilos para detalles del contacto */
+.contact-details {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0.8em;
+}
+
+.contact-details p{
+  margin: 0;
+}
+
+.contact-name {
+  font-weight: 600;
+}
