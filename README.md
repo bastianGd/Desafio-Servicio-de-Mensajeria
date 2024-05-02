@@ -8,5 +8,7 @@ Desafio de flexbox para DL
 index.html
 ```
 Proyecto creado utilizando flexbox y sus propiedades de posicionamiento de los elementos.
-
+## Imagen de lo solicitado 
 ![Captura de pantalla 2024-05-01 220457](https://github.com/bastianGd/Desafio-Servicio-de-Mensajeria/assets/116472985/ba82ed01-41bb-42fc-b338-1e8b0b8f6f9c)
+## Resultado 
+![Captura de pantalla 2024-05-01 220708](https://github.com/bastianGd/Desafio-Servicio-de-Mensajeria/assets/116472985/869dfe1c-e677-4c71-9df4-8464f8129fe1)
