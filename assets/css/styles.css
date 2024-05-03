@@ -1,7 +1,7 @@
 /* Variables */
 :root {
   --list-background-color: rgb(236, 234, 234);
-  --central-background-color: #d1d1d1;
+  --central-background-color: #e6e6e6;
   --border-color: grey;
   --button-color: #b0a0d8;
   --button-text-color: white;
@@ -19,8 +19,7 @@
 /* Estilos generales */
 body {
   background-color: var(--central-background-color);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Roboto' , sans-serif
 }
 
 /* Contenedor principal */
@@ -60,7 +59,6 @@ body {
 
 .contact-display {
   color: var(--icon-color);
-  font-size: smaller;
 }
 
 /* Estilos íconos sociales */
@@ -120,33 +118,32 @@ button {
 /* Estilos para la sección central */
 
 .central-section {
-  display: flex;
-  flex-grow: 1;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .central-section img {
-  width: 20em;
-}
-
-.central-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 22em;
+  max-width: 100%;
 }
 
 /* Estilos para los textos bajo la imágen */
-.central-content p {
-  margin: 1em 0 0 0;
-}
 
 .central-title {
-  font-size: xx-large;
-  font-weight: 800;
+  margin: 1rem 0 0;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 .instructions {
+  margin: 0;
   text-align: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 2rem;
 }
